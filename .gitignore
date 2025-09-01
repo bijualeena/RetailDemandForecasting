@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv*/
+venv/
+
+# Data files
+data/*.csv
+
+# OS
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# IntelliJ
+*.iml
+.idea/
