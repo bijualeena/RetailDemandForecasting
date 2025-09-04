@@ -1,21 +1,21 @@
-# 🛒 Retail Demand Forecasting
+Retail Demand Forecasting
 
 An end-to-end **demand forecasting system** built using **PostgreSQL, Python (Prophet), and Streamlit**.  
 It covers the full pipeline from **data ingestion → database → forecasting → evaluation → dashboard**.
 
 ---
 
-## 🚀 Features
-- **ETL Pipeline**: Load transactional sales data (CSV) into a Postgres database.  
-- **Database Schema**: Star-schema with product, store dimensions, and sales fact table.  
-- **Forecasting**: Uses Facebook **Prophet** for daily demand forecasting.  
-- **Dashboard**: Interactive **Streamlit app** for product/store forecasts.  
-- **Model Metrics Logging**: RMSE & MAPE stored in Postgres after each forecast.  
-- **Performance Tab**: Explore logged forecasts, errors over time, and trends.  
+# Features
+- ETL Pipeline: Load transactional sales data (CSV) into a Postgres database.  
+- Database Schema: Star-schema with product, store dimensions, and sales fact table.  
+- Forecasting: Uses Facebook Prophet for daily demand forecasting.  
+- Dashboard: Interactive Streamlit app for product/store forecasts.  
+- Model Metrics Logging: RMSE & MAPE stored in Postgres after each forecast.  
+- Performance Tab: Explore logged forecasts, errors over time, and trends.  
 
 ---
 
-## 📂 Project Structure
+# Project Structure
 
 retail-demand-forecasting/
 │
