@@ -61,3 +61,8 @@ CSV Data  ──►  ETL (Python)  ──►  PostgreSQL
 
 # running the dashboard
 streamlit run src/dashboards/app.py
+
+# Example Output
+
+Local Streamlit dashboard will open at: http://localhost:8501
+
